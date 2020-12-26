@@ -1,0 +1,105 @@
+/*
+########## SELECTORES ##########
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&family=Roboto&display=swap');
+
+/* SELECTOR UNIVERSAL */
+* {
+    font-family: Nunito;
+}
+
+/*---------------------------------------*/
+/*SELECTOR DE ETIQUETA -- POR EJEMPLO: SELECCIONAR <h1>, <p>, <ul>*/
+h1{
+    background-color: burlywood;
+    padding: 10px;
+}
+a{
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+/*SELECTORES COMPUESTOS*/
+footer a{
+    color:red;
+}
+/*---------------------------------------*/
+
+/*---------------------------------------*/
+/*SELECTOR DE ID -- SE COLOCA EL NOMBRE DEL ID COLOCADO EN HTML INICIADO CON "#" POR EJEMPLO #descripcion*/ /*HAY QUE TENER EN CUENTA QUE LOS ID SOLAMENTE SE CREAN PARA UN ÚNICO ELEMENTO*/
+#descripcion,
+#titulo{
+    border:1px solid black;
+    padding:15px;
+
+}
+#titulo{
+    background:green;
+    border: 2px dashed white;
+}
+/*---------------------------------------*/
+
+/*---------------------------------------*/
+/*SELECTOR DE CLASE -- DADO QUE EL ID ES PARA UN ÚNICO ELEMENTO, SE CREÓ ESTE TIPO DE SELECTOR -- PARA INVOCARLO SE COLOCA UN . (PUNTO) ANTES DEL NOMBRE DEL NOMBRE DE LA CLASE ESCRITO EN HTML*/
+.parrafo{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.parrafo3{
+    background-color: cornflowerblue;
+    padding: 15px;
+}
+/*---------------------------------------*/
+
+
+/*---------------------------------------*/
+/*SELECTOR DE ATRIBUTO*/
+#usuario form{
+    border:5px solid-blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding:20px;
+
+}
+#usuario form *{
+    display:block;
+}
+input[type="text"]{
+    margin-bottom:15px;
+    padding:10px;
+    width:300px;
+}
+input[type="submit"]{
+    background:green;
+    color: white;
+    padding:15px;
+    font-size:15px;
+    text-transform: uppercase;
+    border:1px solid black;
+    cursor:pointer;
+}
+
+/*---------------------------------------*/
+
+/*---------------------------------------*/
+/*SELECTOR HIJO*/
+#menu > li > a{
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+}
+
+/*---------------------------------------*/
+
+/*---------------------------------------*/
+/*PRIORIDAD CSS -- CUANTO MÁS ESPECÍFICA ES LA REGLA, MÁS PRIORIDAD TIENE -- SI SE COLOCA EL !IMPORTANT SE VUELVE PRIORITARIO ANTE CUALQUIER OTRA REGLA SOBRE EL SELECTOR*/
+#saludo h1{
+    background: sandybrown;
+}
+
+h1{
+    background:rgb(212, 162, 212) !important;
+
+}
