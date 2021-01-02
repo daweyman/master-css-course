@@ -1,0 +1,30 @@
+
+/*Las medidas más utilizadas son PX, EM y %*/
+/*Un EM son 16px*/
+h1{
+    font-family:'Bangers', cursive;
+    font-style: normal; /*Lo normal es utilizar NORMAL o ITALIK*/
+    /*COLORES*/
+    /*COLORES DEL SISTEMA*/
+    color: mediumpurple;
+
+    /*COLORES HEXADECIMALES*/
+    color: #7cfff8 ;
+    /*COLORES RGB*/
+    color: rgb(255,225,107);
+    /*COLORES RGBA*/
+    background-color: rgba(215, 198, 248, 0.5);
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: lighter;
+    color:olive;
+}
+p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 800; /*BOLD es el atributo más utilizado*/
+    color: #7cfff8;
+
+}

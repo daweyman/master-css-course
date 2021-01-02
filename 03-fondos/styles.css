@@ -1,0 +1,21 @@
+body{
+    background-color: #cccccc;
+    background-image: url(img/chevron-pattern.png);
+    background-repeat: repeat;
+    color:white;
+    background-attachment: fixed;
+    background-position: left;
+
+}
+
+#cajota{
+    border: 5px solid black;
+    padding: 10px;
+    background-color:rgb(168, 255, 229);
+    color: black;
+    background-image: url(img/pattern.png);
+}
+p{
+    color:rgb(104, 49, 255);
+    background-color:coral;
+}
